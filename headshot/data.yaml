@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Body', 'Head']
+
+roboflow:
+  workspace: zehayk
+  project: headshot-vezma
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/zehayk/headshot-vezma/dataset/1
